@@ -12,10 +12,9 @@
 
 # Uncomment a feed source
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-sed -i 's/^#\(.*lingtigameacc\)/\1/' feeds.conf.default
+sed -i 's/^#\(.*LingTiGameAcc\)/\1/' feeds.conf.default
 
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git lingtigameacc https://github.com/esirplayground/luci-app-LingTiGameAcc.git' >>feeds.conf.default
-git clone https://github.com/esirplayground/LingTiGameAcc.git
+echo 'src-git LingTiGameAcc https://github.com/esirplayground/luci-app-LingTiGameAcc.git' >>feeds.conf.default
